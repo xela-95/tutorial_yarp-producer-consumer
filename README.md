@@ -6,6 +6,13 @@ To deepen your undrstanding of these classes you may checkout the online documen
 - [yarp::os::Port](https://www.yarp.it/latest/classyarp_1_1os_1_1Port.html)
 - [yarp::os::BufferedPort](https://www.yarp.it/latest/classyarp_1_1os_1_1BufferedPort.html)
 
+# Dependencies
+You can create a conda environment with all the needed dependencies by executing the following command:
+
+```
+mamba -c conda-forge -c robotology -n yarp_tutorials_env yarp cmake ninja pkg-config cmake compilers  icub-contrib-common 
+```
+
 # Build and Install the code
 Follow these steps to build and properly install your module: 
 
